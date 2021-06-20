@@ -1,0 +1,10 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: es-test
+
+elasticsearch:
+  host: 192.168.120.201
+  port: 9200
