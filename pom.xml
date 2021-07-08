@@ -15,6 +15,9 @@
         <module>acl_parent</module>
         <module>common</module>
         <module>jdk8-character</module>
+        <module>shiro-part1</module>
+        <module>elasticsearch</module>
+        <module>security</module>
     </modules>
 
     <packaging>pom</packaging>

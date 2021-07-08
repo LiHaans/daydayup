@@ -298,4 +298,10 @@ public class StreamPart1 {
         List<Integer> list1 = Stream.iterate(0, x -> x + 2).skip(2).limit(4).collect(Collectors.toList());
         System.out.println(list1);
     }
+
+
+    @Test
+    public void test2() {
+        List<Integer> collect = personList.stream().map(Person::getSalary).collect(Collectors.toList());
+    }
 }
