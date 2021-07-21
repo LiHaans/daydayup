@@ -18,6 +18,7 @@
         <module>shiro-part1</module>
         <module>elasticsearch</module>
         <module>security</module>
+        <module>elasticsearch-part2</module>
     </modules>
 
     <packaging>pom</packaging>

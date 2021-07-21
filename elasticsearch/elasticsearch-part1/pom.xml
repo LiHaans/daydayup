@@ -12,16 +12,16 @@
     <artifactId>elasticsearch-part1</artifactId>
 
     <dependencies>
-        <!--<dependency>
+       <!-- <dependency>
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch</artifactId>
-            <version>7.8.0</version>
-        </dependency>-->
-        <!-- elasticsearch的客户端
+            <version>6.2.2</version>
+        </dependency>
+        &lt;!&ndash; elasticsearch的客户端 &ndash;&gt;
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
             <artifactId>elasticsearch-rest-high-level-client</artifactId>
-            <version>7.8.0</version>
+            <version>6.2.2</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.elasticsearch</groupId>
@@ -37,11 +37,11 @@
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
             <artifactId>elasticsearch-rest-client</artifactId>
-            <version>7.8.0</version>
-        </dependency>-->
+            <version>6.2.2</version>
+        </dependency>
+-->
 
 
-        <!-- elasticsearch依赖2.x的log4j -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>

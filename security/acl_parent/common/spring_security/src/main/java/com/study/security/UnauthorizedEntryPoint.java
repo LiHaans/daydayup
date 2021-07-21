@@ -20,6 +20,6 @@ public class UnauthorizedEntryPoint implements AuthenticationEntryPoint {
 
     @Override
     public void commence(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, AuthenticationException e) throws IOException, ServletException {
-        ResponseUtil.out(httpServletResponse, R.error());
+        ResponseUtil.out(httpServletResponse, R.error().message(e.getMessage()));
     }
 }
