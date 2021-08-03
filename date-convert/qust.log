@@ -1,0 +1,24 @@
+2021-07-30 15:31:47.148  INFO 17328 --- [main] com.service.config.KylinTest             : Starting KylinTest on DESKTOP-GKP639A with PID 17328 (started by lihang in D:\JetBrains\daydayup\date-convert)
+2021-07-30 15:31:47.172  INFO 17328 --- [main] com.service.config.KylinTest             : No active profile set, falling back to default profiles: default
+2021-07-30 15:31:48.532  INFO 17328 --- [main] com.service.config.KylinConfig           : -------------------- kylin init ---------------------
+2021-07-30 15:31:50.343  INFO 17328 --- [main] com.service.config.KylinDataSource       : PrestoDataSource has initialized 10 size connection pool
+2021-07-30 15:31:50.936  INFO 17328 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-30 15:31:51.306  INFO 17328 --- [main] com.service.config.KylinTest             : Started KylinTest in 5.455 seconds (JVM running for 6.879)
+2021-07-30 15:31:51.605 DEBUG 17328 --- [main] o.s.jdbc.core.JdbcTemplate               : Executing SQL query [select -sum(jyje) as nums from dws_ykt_lsmxxx  where xh=xh  and jysj>='2021-01-01 00:00:00'  and jysj<='2021-07-28 00:00:00'  group by shmc    order by nums desc limit 10 ]
+2021-07-30 15:31:52.381  INFO 17328 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-30 15:34:56.411  INFO 11404 --- [main] com.service.config.KylinTest             : Starting KylinTest on DESKTOP-GKP639A with PID 11404 (started by lihang in D:\JetBrains\daydayup\date-convert)
+2021-07-30 15:34:56.413  INFO 11404 --- [main] com.service.config.KylinTest             : No active profile set, falling back to default profiles: default
+2021-07-30 15:34:57.602  INFO 11404 --- [main] com.service.config.KylinConfig           : -------------------- kylin init ---------------------
+2021-07-30 15:34:59.243  INFO 11404 --- [main] com.service.config.KylinDataSource       : PrestoDataSource has initialized 10 size connection pool
+2021-07-30 15:34:59.672  INFO 11404 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-30 15:34:59.992  INFO 11404 --- [main] com.service.config.KylinTest             : Started KylinTest in 4.671 seconds (JVM running for 6.113)
+2021-07-30 15:35:00.225 DEBUG 11404 --- [main] o.s.jdbc.core.JdbcTemplate               : Executing SQL query [select shmc, -sum(jyje) as nums from dws_ykt_lsmxxx  where xh=xh  and jysj>='2021-01-01 00:00:00'  and jysj<='2021-07-28 00:00:00'  group by shmc order by nums desc limit 10 ]
+2021-07-30 15:35:00.479  INFO 11404 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-30 15:36:08.500  INFO 5884 --- [main] com.service.config.KylinTest             : Starting KylinTest on DESKTOP-GKP639A with PID 5884 (started by lihang in D:\JetBrains\daydayup\date-convert)
+2021-07-30 15:36:08.502  INFO 5884 --- [main] com.service.config.KylinTest             : No active profile set, falling back to default profiles: default
+2021-07-30 15:36:09.621  INFO 5884 --- [main] com.service.config.KylinConfig           : -------------------- kylin init ---------------------
+2021-07-30 15:36:11.290  INFO 5884 --- [main] com.service.config.KylinDataSource       : PrestoDataSource has initialized 10 size connection pool
+2021-07-30 15:36:11.767  INFO 5884 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-30 15:36:12.075  INFO 5884 --- [main] com.service.config.KylinTest             : Started KylinTest in 4.651 seconds (JVM running for 5.931)
+2021-07-30 15:36:12.278 DEBUG 5884 --- [main] o.s.jdbc.core.JdbcTemplate               : Executing SQL query [select shmc, -sum(jyje) as nums from dws_ykt_lsmxxx where xh=xh  and jysj>='2021-01-01 00:00:00'  and jysj<='2021-07-28 00:00:00'  group by shmc order by nums desc limit 10 ]
+2021-07-30 15:36:12.685  INFO 5884 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,4 +1,3 @@
-/*
 package com.study;
 
 import com.alibaba.fastjson.JSON;
@@ -24,8 +23,6 @@ import org.elasticsearch.client.indices.CreateIndexRequest;
 import org.elasticsearch.client.indices.CreateIndexResponse;
 import org.elasticsearch.client.indices.GetIndexRequest;
 import org.elasticsearch.client.indices.GetIndexResponse;
-import org.elasticsearch.cluster.metadata.AliasMetadata;
-import org.elasticsearch.cluster.metadata.MappingMetadata;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.xcontent.XContentType;
 import org.junit.After;
@@ -36,13 +33,6 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-
-*/
-/**
- * @Auther: lihang
- * @Date: 2021-05-11 22:14
- * @Description:
- *//*
 
 public class ESTest {
 
@@ -78,7 +68,7 @@ public class ESTest {
     @Test
     public void getIndex() throws IOException {
         // 查询索引 请求对象
-        GetIndexRequest request = new GetIndexRequest("user");
+       /* GetIndexRequest request = new GetIndexRequest("user");
         // 发送请求，获取响应
         GetIndexResponse response = client.indices().get(request, RequestOptions.DEFAULT);
         Map<String, List<AliasMetadata>> aliases = response.getAliases();
@@ -86,7 +76,7 @@ public class ESTest {
         Map<String, Settings> settings = response.getSettings();
         System.out.println("mappings : " + mappings);
         System.out.println("aliases : " + aliases);
-        System.out.println("settings : " + settings);
+        System.out.println("settings : " + settings);*/
     }
 
     // 删除索引
@@ -193,4 +183,3 @@ public class ESTest {
 
 
 }
-*/

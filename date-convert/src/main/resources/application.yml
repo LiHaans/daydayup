@@ -1,0 +1,18 @@
+kylin:
+  username: ADMIN
+  password: KYLIN
+  type: org.apache.tomcat.jdbc.pool.DataSource
+  url: jdbc:kylin://10.170.130.105:17070/cd_project
+  driver-class-name: org.apache.kylin.jdbc.Driver
+  maxWaitTime: 10000
+  poolSize: 10
+
+logging:
+  level:
+    com.baomidou: debug
+    org.apache.ibatis: debug
+    org.pac4j: debug
+    io.buji: debug
+    org.springframework.jdbc.core.JdbcTemplate: debug
+  path: ./log
+  file: qust.log

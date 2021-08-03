@@ -19,6 +19,9 @@
         <module>elasticsearch</module>
         <module>security</module>
         <module>elasticsearch-part2</module>
+        <module>date-convert</module>
+        <module>bs</module>
+        <module>es-value-reader</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -133,6 +136,8 @@
                 <artifactId>mybatis-plus-boot-starter</artifactId>
                 <version>3.0.5</version>
             </dependency>
+
+
         </dependencies>
     </dependencyManagement>
 

@@ -1,3 +1,4 @@
+/*
 package com.study;
 
 import com.alibaba.fastjson.JSON;
@@ -24,11 +25,13 @@ import org.junit.Test;
 import java.io.IOException;
 import java.util.Arrays;
 
+*/
 /**
  * @Auther: lihang
  * @Date: 2021-05-21 19:25
  * @Description:
- */
+ *//*
+
 public class ESQueryTest {
 
     RestHighLevelClient client;
@@ -67,7 +70,7 @@ public class ESQueryTest {
         builder.query(QueryBuilders.matchAllQuery());
         request.source(builder);
 
-        SearchResponse response = client.search(request, RequestOptions.DEFAULT);
+        SearchResponse response = client.search(request);
 
         System.out.println(response.toString());
 
@@ -110,7 +113,7 @@ public class ESQueryTest {
 
         request.source(builder);
 
-        SearchResponse response = client.search(request, RequestOptions.DEFAULT);
+        SearchResponse response = client.search(request);
 
         System.out.println(response.toString());
 
@@ -298,3 +301,4 @@ public class ESQueryTest {
 
 
 }
+*/
