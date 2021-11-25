@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ojdbc-5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/oracle-test/src/main/resources/lib/ojdbc-5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jdbc-driver-11g">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/oracle-test/src/main/resources/lib/jdbc-driver-11g.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

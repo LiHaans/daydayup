@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/bs/bs-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bs/commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/date-convert/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elasticsearch/elasticsearch-part1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/es-value-reader/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink_elasticsearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hive-writer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jdk8-character/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mapreduce/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatisplus-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oracle-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security/acl_parent/common/service_base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security/acl_parent/common/spring_security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security/acl_parent/infrastructure/api_gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security/acl_parent/service/service_acl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security/security-part2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shiro-part1/src/main/java" charset="UTF-8" />
+  </component>
+</project>

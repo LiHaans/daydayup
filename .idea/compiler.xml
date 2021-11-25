@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="elasticsearch-part1" />
+        <module name="es-value-reader" />
+        <module name="spring_security" />
+        <module name="mybatisplus-generator" />
+        <module name="kafka-demo" />
+        <module name="bs-service" />
+        <module name="flink_elasticsearch" />
+        <module name="oracle-test" />
+        <module name="jdk8-character" />
+        <module name="date-convert" />
+        <module name="service_acl" />
+        <module name="mapreduce" />
+        <module name="service_base" />
+        <module name="hive-writer" />
+        <module name="api_gateway" />
+        <module name="security-part2" />
+        <module name="shiro-part1" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api_gateway" options="-parameters" />
+      <module name="bs-service" options="-parameters" />
+      <module name="date-convert" options="-parameters" />
+      <module name="elasticsearch-part1" options="-parameters" />
+      <module name="es-value-reader" options="-parameters" />
+      <module name="flink_elasticsearch" options="-parameters" />
+      <module name="hive-writer" options="-parameters" />
+      <module name="jdk8-character" options="-parameters" />
+      <module name="kafka-demo" options="-parameters" />
+      <module name="mapreduce" options="-parameters" />
+      <module name="mybatisplus-generator" options="-parameters" />
+      <module name="oracle-test" options="-parameters" />
+      <module name="security-part2" options="-parameters" />
+      <module name="service_acl" options="-parameters" />
+      <module name="service_base" options="-parameters" />
+      <module name="shiro-part1" options="-parameters" />
+      <module name="spring_security" options="-parameters" />
+    </option>
+  </component>
+</project>

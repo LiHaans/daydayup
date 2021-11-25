@@ -25,6 +25,7 @@
         <module>oracle-test</module>
         <module>hive-writer</module>
         <module>mapreduce</module>
+        <module>kafka-demo</module>
     </modules>
 
     <packaging>pom</packaging>
