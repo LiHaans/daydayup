@@ -1,0 +1,11 @@
+hive-writer:
+  defaultFS: hdfs://hadoop-ha
+  jdbc-url: jdbc:hive2://10.170.130.235:10000/default
+  username: default
+  password: default
+  tmp-path: /user/root/hive_tmp/
+  name-services: hadoop-ha
+  ha-node1-service-name: ha1
+  ha-node2-service-name: ha2
+  ha-node1-service-url: 10.170.130.232:9000
+  ha-node2-service-url: 10.170.130.233:9000

@@ -14,6 +14,7 @@
     <modules>
         <module>security-part1</module>
         <module>acl_parent</module>
+        <module>security-part2</module>
     </modules>
 
 </project>

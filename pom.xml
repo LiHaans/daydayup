@@ -22,6 +22,9 @@
         <module>date-convert</module>
         <module>bs</module>
         <module>es-value-reader</module>
+        <module>oracle-test</module>
+        <module>hive-writer</module>
+        <module>mapreduce</module>
     </modules>
 
     <packaging>pom</packaging>
