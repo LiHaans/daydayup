@@ -1,7 +1,9 @@
 package com.lih.demo;
 
+import org.apache.kafka.clients.producer.Callback;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
+import org.apache.kafka.clients.producer.RecordMetadata;
 
 import java.util.Properties;
 
@@ -27,8 +29,18 @@ public class Producer {
         properties.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 
         KafkaProducer<String, String> kafkaProducer = new KafkaProducer(properties);
-        for (int i = 0; i < 10; i++) {
+        /*for (int i = 10; i < 20; i++) {
             kafkaProducer.send(new ProducerRecord<String, String>("first", Integer.toString(i), "Hello, "+i));
+        }*/
+        for (int i = 10; i < 20; i++) {
+            kafkaProducer.send(new ProducerRecord<String, String>("first","Hello, "+i), new Callback() {
+                @Override
+                public void onCompletion(RecordMetadata recordMetadata, Exception e) {
+                    if (recordMetadata != null){
+                        System.out.println(recordMetadata.partition() + "---" +recordMetadata.offset());
+                    }
+                }
+            });
         }
         kafkaProducer.close();
     }
