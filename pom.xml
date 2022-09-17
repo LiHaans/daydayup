@@ -26,6 +26,8 @@
         <module>hive-writer</module>
         <module>mapreduce</module>
         <module>kafka-demo</module>
+        <module>ftptest</module>
+        <module>operator</module>
     </modules>
 
     <packaging>pom</packaging>

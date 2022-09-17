@@ -16,14 +16,17 @@
         <module name="flink_elasticsearch" />
         <module name="oracle-test" />
         <module name="jdk8-character" />
+        <module name="operator" />
         <module name="date-convert" />
         <module name="service_acl" />
         <module name="mapreduce" />
         <module name="service_base" />
         <module name="hive-writer" />
+        <module name="ftptest" />
         <module name="api_gateway" />
         <module name="security-part2" />
         <module name="shiro-part1" />
+        <module name="ylgy" />
       </profile>
     </annotationProcessing>
   </component>
@@ -35,17 +38,20 @@
       <module name="elasticsearch-part1" options="-parameters" />
       <module name="es-value-reader" options="-parameters" />
       <module name="flink_elasticsearch" options="-parameters" />
+      <module name="ftptest" options="-parameters" />
       <module name="hive-writer" options="-parameters" />
       <module name="jdk8-character" options="-parameters" />
       <module name="kafka-demo" options="-parameters" />
       <module name="mapreduce" options="-parameters" />
       <module name="mybatisplus-generator" options="-parameters" />
+      <module name="operator" options="-parameters" />
       <module name="oracle-test" options="-parameters" />
       <module name="security-part2" options="-parameters" />
       <module name="service_acl" options="-parameters" />
       <module name="service_base" options="-parameters" />
       <module name="shiro-part1" options="-parameters" />
       <module name="spring_security" options="-parameters" />
+      <module name="ylgy" options="-parameters" />
     </option>
   </component>
 </project>

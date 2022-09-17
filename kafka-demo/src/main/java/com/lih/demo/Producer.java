@@ -33,7 +33,7 @@ public class Producer {
             kafkaProducer.send(new ProducerRecord<String, String>("first", Integer.toString(i), "Hello, "+i));
         }*/
         for (int i = 10; i < 20; i++) {
-            kafkaProducer.send(new ProducerRecord<String, String>("first","Hello, "+i), new Callback() {
+            kafkaProducer.send(new ProducerRecord<String, String>("second","Hello nihang shide"), new Callback() {
                 @Override
                 public void onCompletion(RecordMetadata recordMetadata, Exception e) {
                     if (recordMetadata != null){
