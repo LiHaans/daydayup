@@ -8,7 +8,7 @@
     <artifactId>daydayup</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>elasticsearch</module>
+       <!-- <module>elasticsearch</module>
         <module>flink_elasticsearch</module>
         <module>mybatisplus-generator</module>
         <module>security-part1</module>
@@ -25,7 +25,13 @@
         <module>oracle-test</module>
         <module>hive-writer</module>
         <module>mapreduce</module>
-        <module>kafka-demo</module>
+        <module>kafka-demo</module>-->
+        <module>kafka-conumer</module>
+        <module>websocket-server</module>
+        <module>minio-test</module>
+        <module>pdf-test</module>
+        <module>pdf2word</module>
+        <module>word-parse</module>
     </modules>
 
     <packaging>pom</packaging>
