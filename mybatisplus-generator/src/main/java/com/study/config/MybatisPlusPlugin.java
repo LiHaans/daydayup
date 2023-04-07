@@ -1,4 +1,4 @@
-package com.study.config;
+package com.golaxy.config;
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import com.baomidou.mybatisplus.core.injector.ISqlInjector;

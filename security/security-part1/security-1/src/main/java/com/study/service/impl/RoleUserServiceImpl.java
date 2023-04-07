@@ -1,8 +1,8 @@
-package com.study.service.impl;
+package com.golaxy.service.impl;
 
-import com.study.entity.RoleUser;
-import com.study.mapper.RoleUserMapper;
-import com.study.service.RoleUserService;
+import com.golaxy.entity.RoleUser;
+import com.golaxy.mapper.RoleUserMapper;
+import com.golaxy.service.RoleUserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

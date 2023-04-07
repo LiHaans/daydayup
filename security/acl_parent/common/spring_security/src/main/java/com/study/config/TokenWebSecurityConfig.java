@@ -1,8 +1,8 @@
-package com.study.config;
+package com.golaxy.config;
 
-import com.study.filter.TokenAuthFilter;
-import com.study.filter.TokenLoginFilter;
-import com.study.security.*;
+import com.golaxy.filter.TokenAuthFilter;
+import com.golaxy.filter.TokenLoginFilter;
+import com.golaxy.security.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.core.RedisTemplate;

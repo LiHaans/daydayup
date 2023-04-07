@@ -1,4 +1,4 @@
-package com.study.config;
+package com.golaxy.config;
 
 import net.sf.jsqlparser.schema.Database;
 import org.springframework.context.annotation.Bean;

@@ -1,7 +1,7 @@
-package com.study.helper;
+package com.golaxy.helper;
 
 
-import com.study.entity.Permission;
+import com.golaxy.entity.Permission;
 
 import java.util.ArrayList;
 import java.util.List;

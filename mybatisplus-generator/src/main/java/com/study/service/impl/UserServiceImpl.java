@@ -1,12 +1,12 @@
-package com.study.service.impl;
+package com.golaxy.service.impl;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.study.entity.User;
-import com.study.mapper.UserMapper;
-import com.study.response.PageList;
-import com.study.response.WebResult;
-import com.study.service.UserService;
+import com.golaxy.entity.User;
+import com.golaxy.mapper.UserMapper;
+import com.golaxy.response.PageList;
+import com.golaxy.response.WebResult;
+import com.golaxy.service.UserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

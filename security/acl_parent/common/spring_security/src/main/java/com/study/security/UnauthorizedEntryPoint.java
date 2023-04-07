@@ -1,7 +1,7 @@
-package com.study.security;
+package com.golaxy.security;
 
-import com.study.utils.R;
-import com.study.utils.ResponseUtil;
+import com.golaxy.utils.R;
+import com.golaxy.utils.ResponseUtil;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
 

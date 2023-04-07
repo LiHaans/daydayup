@@ -1,11 +1,11 @@
-package com.study.filter;
+package com.golaxy.filter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.study.entity.SecurityUser;
-import com.study.entity.User;
-import com.study.security.TokenManager;
-import com.study.utils.R;
-import com.study.utils.ResponseUtil;
+import com.golaxy.entity.SecurityUser;
+import com.golaxy.entity.User;
+import com.golaxy.security.TokenManager;
+import com.golaxy.utils.R;
+import com.golaxy.utils.ResponseUtil;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

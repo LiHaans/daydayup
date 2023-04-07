@@ -1,4 +1,4 @@
-package com.study.generator;
+package com.golaxy.generator;
 
 import java.net.URI;
 import java.net.URISyntaxException;

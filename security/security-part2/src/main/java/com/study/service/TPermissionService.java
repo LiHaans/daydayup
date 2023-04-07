@@ -1,6 +1,6 @@
-package com.study.service;
+package com.golaxy.service;
 
-import com.study.entity.TPermission;
+import com.golaxy.entity.TPermission;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

@@ -1,6 +1,6 @@
-package com.study.mapper;
+package com.golaxy.mapper;
 
-import com.study.entity.Role;
+import com.golaxy.entity.Role;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Param;
 

@@ -1,14 +1,14 @@
-package com.study.service.impl;
+package com.golaxy.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.segments.MergeSegments;
-import com.study.entity.Menu;
-import com.study.entity.Role;
-import com.study.entity.Users;
-import com.study.mapper.MenuMapper;
-import com.study.mapper.RoleMapper;
-import com.study.mapper.UsersMapper;
+import com.golaxy.entity.Menu;
+import com.golaxy.entity.Role;
+import com.golaxy.entity.Users;
+import com.golaxy.mapper.MenuMapper;
+import com.golaxy.mapper.RoleMapper;
+import com.golaxy.mapper.UsersMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.config.core.GrantedAuthorityDefaults;
 import org.springframework.security.core.GrantedAuthority;

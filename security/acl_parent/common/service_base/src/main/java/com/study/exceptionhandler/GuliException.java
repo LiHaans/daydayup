@@ -1,4 +1,4 @@
-package com.study.exceptionhandler;
+package com.golaxy.exceptionhandler;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

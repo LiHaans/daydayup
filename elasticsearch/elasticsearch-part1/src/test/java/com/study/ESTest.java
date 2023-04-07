@@ -1,7 +1,7 @@
-package com.study;
+package com.golaxy;
 
 import com.alibaba.fastjson.JSON;
-import com.study.bean.User;
+import com.golaxy.bean.User;
 import org.apache.http.HttpHost;
 import org.elasticsearch.action.admin.indices.delete.DeleteIndexRequest;
 import org.elasticsearch.action.bulk.BulkItemResponse;

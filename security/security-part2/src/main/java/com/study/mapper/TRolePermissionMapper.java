@@ -1,6 +1,6 @@
-package com.study.mapper;
+package com.golaxy.mapper;
 
-import com.study.entity.TRolePermission;
+import com.golaxy.entity.TRolePermission;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

@@ -1,9 +1,9 @@
-package com.study.controller;
+package com.golaxy.controller;
 
 
-import com.study.entity.Permission;
-import com.study.service.PermissionService;
-import com.study.utils.R;
+import com.golaxy.entity.Permission;
+import com.golaxy.service.PermissionService;
+import com.golaxy.utils.R;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

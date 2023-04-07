@@ -1,4 +1,4 @@
-package com.study.utils;
+package com.golaxy.utils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

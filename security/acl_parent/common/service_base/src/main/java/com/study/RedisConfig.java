@@ -1,4 +1,4 @@
-package com.study;
+package com.golaxy;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;

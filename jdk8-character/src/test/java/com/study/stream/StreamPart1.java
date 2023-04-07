@@ -1,6 +1,6 @@
-package com.study.stream;
+package com.golaxy.stream;
 
-import com.study.bean.Person;
+import com.golaxy.bean.Person;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
 import org.junit.Test;

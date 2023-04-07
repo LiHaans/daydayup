@@ -1,0 +1,16 @@
+request:
+#  type: http
+##  url: http://10.208.63.15/bdg-api/bdg-service/service/v1/test0406_post
+#  url: http://10.208.63.15/bdg-api/bdg-service/service/v1/test_0406_get
+#  method: get
+#  appKey: pGagSeVF
+
+
+  type: websocket
+  #  url: http://10.208.63.15/bdg-api/bdg-service/service/v1/test0406_post
+  url: ws://10.208.63.15/bdg-api/bdg-service/ws/kafka_test_0406_1
+  appKey: pGagSeVF
+
+response:
+  url: http://127.0.0.1:8081/bdg-admin/tool-choreography-task/pushDataToTmp
+  tableName: test_tmp

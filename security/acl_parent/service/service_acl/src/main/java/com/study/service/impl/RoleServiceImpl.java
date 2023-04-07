@@ -1,10 +1,10 @@
-package com.study.service.impl;
+package com.golaxy.service.impl;
 
-import com.study.entity.Role;
-import com.study.entity.UserRole;
-import com.study.mapper.RoleMapper;
-import com.study.service.RoleService;
-import com.study.service.UserRoleService;
+import com.golaxy.entity.Role;
+import com.golaxy.entity.UserRole;
+import com.golaxy.mapper.RoleMapper;
+import com.golaxy.service.RoleService;
+import com.golaxy.service.UserRoleService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;

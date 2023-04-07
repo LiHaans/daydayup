@@ -1,9 +1,9 @@
-package com.study;
+package com.golaxy;
 
 
 import com.alibaba.fastjson.JSON;
-import com.study.bean.Document;
-import com.study.dao.DocumentDao;
+import com.golaxy.bean.Document;
+import com.golaxy.dao.DocumentDao;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

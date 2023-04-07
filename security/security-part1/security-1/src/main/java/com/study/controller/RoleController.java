@@ -1,4 +1,4 @@
-package com.study.controller;
+package com.golaxy.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;

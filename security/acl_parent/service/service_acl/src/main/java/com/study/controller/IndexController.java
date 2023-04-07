@@ -1,8 +1,8 @@
-package com.study.controller;
+package com.golaxy.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.study.service.IndexService;
-import com.study.utils.R;
+import com.golaxy.service.IndexService;
+import com.golaxy.utils.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;

@@ -1,6 +1,6 @@
-package com.study.service;
+package com.golaxy.service;
 
-import com.study.entity.Menu;
+import com.golaxy.entity.Menu;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

@@ -1,4 +1,4 @@
-package com.study.wordcount;
+package com.golaxy.wordcount;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;

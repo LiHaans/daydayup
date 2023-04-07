@@ -1,6 +1,6 @@
-package com.study.exceptionhandler;
+package com.golaxy.exceptionhandler;
 
-import com.study.utils.R;
+import com.golaxy.utils.R;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

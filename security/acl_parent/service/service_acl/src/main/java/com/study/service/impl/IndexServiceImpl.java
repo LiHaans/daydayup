@@ -1,12 +1,12 @@
-package com.study.service.impl;
+package com.golaxy.service.impl;
 
 import com.alibaba.fastjson.JSONObject;
-import com.study.entity.Role;
-import com.study.entity.User;
-import com.study.service.IndexService;
-import com.study.service.PermissionService;
-import com.study.service.RoleService;
-import com.study.service.UserService;
+import com.golaxy.entity.Role;
+import com.golaxy.entity.User;
+import com.golaxy.service.IndexService;
+import com.golaxy.service.PermissionService;
+import com.golaxy.service.RoleService;
+import com.golaxy.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.study;
+package com.golaxy;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;

@@ -1,4 +1,4 @@
-package com.study.config;
+package com.golaxy.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

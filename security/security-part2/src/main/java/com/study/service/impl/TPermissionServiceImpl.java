@@ -1,8 +1,8 @@
-package com.study.service.impl;
+package com.golaxy.service.impl;
 
-import com.study.entity.TPermission;
-import com.study.mapper.TPermissionMapper;
-import com.study.service.TPermissionService;
+import com.golaxy.entity.TPermission;
+import com.golaxy.mapper.TPermissionMapper;
+import com.golaxy.service.TPermissionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

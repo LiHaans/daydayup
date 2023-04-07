@@ -1,8 +1,8 @@
-package com.study.mapper;
+package com.golaxy.mapper;
 
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.study.entity.Permission;
+import com.golaxy.entity.Permission;
 
 import java.util.List;
 

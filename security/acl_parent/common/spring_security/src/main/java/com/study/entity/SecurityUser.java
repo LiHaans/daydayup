@@ -1,4 +1,4 @@
-package com.study.entity;
+package com.golaxy.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

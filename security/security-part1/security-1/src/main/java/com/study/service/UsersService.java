@@ -1,6 +1,6 @@
-package com.study.service;
+package com.golaxy.service;
 
-import com.study.entity.Users;
+import com.golaxy.entity.Users;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

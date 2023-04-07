@@ -1,15 +1,15 @@
-package com.study.service.impl;
+package com.golaxy.service.impl;
 
 import com.alibaba.fastjson.JSONObject;
-import com.study.entity.Permission;
-import com.study.entity.RolePermission;
-import com.study.entity.User;
-import com.study.helper.MemuHelper;
-import com.study.helper.PermissionHelper;
-import com.study.mapper.PermissionMapper;
-import com.study.service.PermissionService;
-import com.study.service.RolePermissionService;
-import com.study.service.UserService;
+import com.golaxy.entity.Permission;
+import com.golaxy.entity.RolePermission;
+import com.golaxy.entity.User;
+import com.golaxy.helper.MemuHelper;
+import com.golaxy.helper.PermissionHelper;
+import com.golaxy.mapper.PermissionMapper;
+import com.golaxy.service.PermissionService;
+import com.golaxy.service.RolePermissionService;
+import com.golaxy.service.UserService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;

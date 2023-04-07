@@ -1,8 +1,8 @@
-package com.study.service.impl;
+package com.golaxy.service.impl;
 
-import com.study.entity.User;
-import com.study.mapper.UserMapper;
-import com.study.service.UserService;
+import com.golaxy.entity.User;
+import com.golaxy.mapper.UserMapper;
+import com.golaxy.service.UserService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.security.core.userdetails.UserDetails;

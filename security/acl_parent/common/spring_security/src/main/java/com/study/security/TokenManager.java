@@ -1,4 +1,4 @@
-package com.study.security;
+package com.golaxy.security;
 
 import io.jsonwebtoken.CompressionCodec;
 import io.jsonwebtoken.CompressionCodecs;

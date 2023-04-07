@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.golaxy.mapper.CasMapper">
+	<insert id="insertBatch">
+		insert into resource (code,create_time,type_id,pid,sort,url,is_show,create_by,update_time,name,
+		id, pids, update_by,app_id)
+		values
+		<foreach collection="list" item="item" separator=",">
+			(#{item.code},#{item.create_time},#{item.type_id},#{item.pid},#{item.sort},#{item.url},#{item.is_show},#{item.create_by}
+			,#{item.update_time},#{item.name},#{item.id},#{item.pids},#{item.update_by},#{item.app_id})
+		</foreach>
+	</insert>
+
+
+	<select id="getAllResourceByAppId" resultType="java.util.Map">
+		select * from resource where app_id = #{appId}
+	</select>
+	<select id="getAllResourceByAppIdAndPid" resultType="java.util.Map">
+		select * from resource where app_id = #{appId} and pid = #{pid}
+	</select>
+	<select id="getAllResourceByAppIdAndId" resultType="java.util.Map">
+		select * from resource where app_id = #{appId} and id in
+		<foreach collection="ids" open="(" close=")" separator="," item="id">
+			#{id}
+		</foreach>
+	</select>
+</mapper>

@@ -1,4 +1,4 @@
-package com.study.response;
+package com.golaxy.response;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.NoArgsConstructor;

@@ -1,8 +1,8 @@
-package com.study.filter;
+package com.golaxy.filter;
 
-import com.study.security.TokenManager;
-import com.study.utils.R;
-import com.study.utils.ResponseUtil;
+import com.golaxy.security.TokenManager;
+import com.golaxy.utils.R;
+import com.golaxy.utils.ResponseUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.authentication.AuthenticationManager;

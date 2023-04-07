@@ -1,9 +1,9 @@
-package com.study.service;
+package com.golaxy.service;
 
-import com.study.entity.User;
+import com.golaxy.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.study.response.PageList;
-import com.study.response.WebResult;
+import com.golaxy.response.PageList;
+import com.golaxy.response.WebResult;
 
 /**
  * <p>

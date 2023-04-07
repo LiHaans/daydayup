@@ -1,4 +1,4 @@
-package com.study.response;
+package com.golaxy.response;
 
 /**
  * 响应信息码

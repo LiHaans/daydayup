@@ -1,4 +1,4 @@
-package com.study.utils;
+package com.golaxy.utils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.HttpStatus;

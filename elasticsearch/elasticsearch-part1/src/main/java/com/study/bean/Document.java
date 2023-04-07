@@ -1,4 +1,4 @@
-package com.study.bean;
+package com.golaxy.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

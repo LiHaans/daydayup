@@ -1,0 +1,40 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /bdg-admin/
+# DataSource Config
+spring:
+  datasource:
+    dynamic:
+      primary: master
+      strict: true
+      datasource:
+        master:
+          url: jdbc:postgresql://10.208.63.3:5432/big_data_governance?stringtype=unspecified
+          username: postgres
+          password: Ictsoft@123
+          driver-class-name: org.postgresql.Driver
+        auth:
+          url: jdbc:mysql://10.208.63.3:3306/cas_auth
+          username: root
+          password: Ictsoft@123
+          driver-class-name: com.mysql.jdbc.Driver
+      druid:
+        initial-size: 5
+        min-idle: 5
+        max-active: 20
+        max-wait: 60000
+        time-between-eviction-runs-millis: 60000
+        min-evictable-idle-time-millis: 30000
+        validation-query: SELECT 1
+        test-while-idle: true
+        test-on-borrow: false
+        test-on-return: false
+        pool-prepared-statements: true
+        max-pool-prepared-statement-per-connection-size: 20
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  # 配置日志
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

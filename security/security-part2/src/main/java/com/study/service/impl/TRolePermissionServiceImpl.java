@@ -1,8 +1,8 @@
-package com.study.service.impl;
+package com.golaxy.service.impl;
 
-import com.study.entity.TRolePermission;
-import com.study.mapper.TRolePermissionMapper;
-import com.study.service.TRolePermissionService;
+import com.golaxy.entity.TRolePermission;
+import com.golaxy.mapper.TRolePermissionMapper;
+import com.golaxy.service.TRolePermissionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

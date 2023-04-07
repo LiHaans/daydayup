@@ -1,4 +1,4 @@
-package com.study.utils;
+package com.golaxy.utils;
 
 import lombok.Data;
 import java.util.HashMap;

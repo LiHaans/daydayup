@@ -1,4 +1,4 @@
-package com.study.service;
+package com.golaxy.service;
 
 import com.alibaba.fastjson.JSONObject;
 

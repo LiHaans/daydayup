@@ -1,6 +1,6 @@
-package com.study.service;
+package com.golaxy.service;
 
-import com.study.entity.Role;
+import com.golaxy.entity.Role;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;

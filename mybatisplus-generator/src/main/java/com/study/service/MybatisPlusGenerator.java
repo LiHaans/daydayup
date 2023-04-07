@@ -1,4 +1,4 @@
-package com.study.service;
+package com.golaxy.service;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.annotation.FieldFill;
@@ -31,27 +31,27 @@ public class MybatisPlusGenerator {
         // 是maven项目的结构，就是工程目录 + /src/main/java
         gc.setOutputDir(projectPath+"/src/main/java");
         // 设置生成文件的作者信息
-        gc.setAuthor("creator");
+        gc.setAuthor("lihang");
         //当代码生成完成之后是否打开代码所在的文件夹
         gc.setOpen(false);
         gc.setFileOverride(false); // 是否覆盖
         gc.setServiceName("%sService"); // 去Service的I前缀
-        gc.setIdType(IdType.ID_WORKER);  // ID生成规则
+        gc.setIdType(IdType.UUID);  // ID生成规则
         gc.setDateType(DateType.ONLY_DATE);
         gc.setSwagger2(true);  // 实体属性 Swagger2 注解
         mpg.setGlobalConfig(gc); // 将上述的全局配置注入
         //2、设置数据源
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://localhost:3306/webgis?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8");
-                dsc.setDriverName("com.mysql.cj.jdbc.Driver");
-        dsc.setUsername("root");
-        dsc.setPassword("root");
-        dsc.setDbType(DbType.MYSQL);
+        dsc.setUrl("jdbc:postgresql://10.208.63.3:5432/big_data_governance");
+                dsc.setDriverName("org.postgresql.Driver");
+        dsc.setUsername("postgres");
+        dsc.setPassword("Ictsoft@123");
+        dsc.setDbType(DbType.POSTGRE_SQL);
         mpg.setDataSource(dsc);
         //3、包的配置
         PackageConfig pc = new PackageConfig();
-        pc.setModuleName("bs");  //pc.setModuleName("sys");
-        pc.setParent("com");    // 设置父级包名
+        pc.setModuleName("cn");  //pc.setModuleName("sys");
+        pc.setParent("golaxy");    // 设置父级包名
         pc.setEntity("entity");       // 实体类包名
         pc.setMapper("mapper");       // mapper包名
         pc.setService("service");      // service包名
@@ -65,7 +65,7 @@ public class MybatisPlusGenerator {
         StrategyConfig strategy = new StrategyConfig();
 
         //要设置生成哪些表 如果不设置就是生成所有的表
-        //strategy.setInclude("user");
+        strategy.setInclude("tool_choreography_task", "tool_manager_info");
                 strategy.setNaming(NamingStrategy.underline_to_camel);  //设置字段和表名的是否把下划线完成驼峰命名规则
         strategy.setColumnNaming(NamingStrategy.underline_to_camel);
 
@@ -81,8 +81,8 @@ public class MybatisPlusGenerator {
         strategy.setEntityLombokModel(true); // 自动lombok；
         strategy.setLogicDeleteFieldName("is_deleted");
         // 自动填充配置
-        TableFill gmtCreate = new TableFill("gmt_create", FieldFill.INSERT);
-        TableFill gmtModified = new TableFill("gmt_modified",
+        TableFill gmtCreate = new TableFill("create_time", FieldFill.INSERT);
+        TableFill gmtModified = new TableFill("modified_time",
                 FieldFill.INSERT_UPDATE);
         ArrayList<TableFill> tableFills = new ArrayList<>();
         tableFills.add(gmtCreate);

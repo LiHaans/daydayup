@@ -1,10 +1,10 @@
-package com.study.controller;
+package com.golaxy.controller;
 
 
-import com.study.entity.User;
-import com.study.response.PageList;
-import com.study.response.WebResult;
-import com.study.service.UserService;
+import com.golaxy.entity.User;
+import com.golaxy.response.PageList;
+import com.golaxy.response.WebResult;
+import com.golaxy.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;

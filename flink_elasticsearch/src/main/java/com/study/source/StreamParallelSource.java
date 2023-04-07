@@ -1,7 +1,7 @@
-package com.study.source;
+package com.golaxy.source;
 
-import com.study.bean.Address;
-import com.study.bean.Customer;
+import com.golaxy.bean.Address;
+import com.golaxy.bean.Customer;
 import org.apache.flink.streaming.api.functions.source.ParallelSourceFunction;
 
 import java.util.Date;

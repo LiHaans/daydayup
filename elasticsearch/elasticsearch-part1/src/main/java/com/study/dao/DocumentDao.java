@@ -1,6 +1,6 @@
-package com.study.dao;
+package com.golaxy.dao;
 
-import com.study.bean.Document;
+import com.golaxy.bean.Document;
 import org.springframework.data.elasticsearch.repository.ElasticsearchCrudRepository;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 import org.springframework.stereotype.Repository;

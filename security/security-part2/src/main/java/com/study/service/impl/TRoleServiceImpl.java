@@ -1,8 +1,8 @@
-package com.study.service.impl;
+package com.golaxy.service.impl;
 
-import com.study.entity.TRole;
-import com.study.mapper.TRoleMapper;
-import com.study.service.TRoleService;
+import com.golaxy.entity.TRole;
+import com.golaxy.mapper.TRoleMapper;
+import com.golaxy.service.TRoleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

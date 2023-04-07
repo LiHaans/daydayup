@@ -1,4 +1,4 @@
-package com.study.config;
+package com.golaxy.config;
 
 import lombok.Data;
 import org.apache.http.HttpHost;

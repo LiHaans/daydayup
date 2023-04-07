@@ -1,4 +1,4 @@
-package com.study;
+package com.golaxy;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.HttpHost;

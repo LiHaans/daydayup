@@ -1,9 +1,9 @@
-package com.study.service.impl;
+package com.golaxy.service.impl;
 
-import com.study.entity.SecurityUser;
-import com.study.entity.User;
-import com.study.service.PermissionService;
-import com.study.service.UserService;
+import com.golaxy.entity.SecurityUser;
+import com.golaxy.entity.User;
+import com.golaxy.service.PermissionService;
+import com.golaxy.service.UserService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
@@ -38,7 +38,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         User user = userService.selectByUsername(username);
         if (user == null) throw new UsernameNotFoundException("用户不存在");
 
-        com.study.entity.User curUser = new com.study.entity.User();
+        com.golaxy.entity.User curUser = new com.golaxy.entity.User();
         BeanUtils.copyProperties(user,curUser);
 
         //根据用户查询用户权限列表

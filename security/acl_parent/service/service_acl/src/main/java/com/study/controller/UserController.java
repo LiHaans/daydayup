@@ -1,14 +1,14 @@
-package com.study.controller;
+package com.golaxy.controller;
 
 
-import com.study.entity.User;
-import com.study.service.RoleService;
-import com.study.service.UserService;
+import com.golaxy.entity.User;
+import com.golaxy.service.RoleService;
+import com.golaxy.service.UserService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.study.utils.MD5;
-import com.study.utils.R;
+import com.golaxy.utils.MD5;
+import com.golaxy.utils.R;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;

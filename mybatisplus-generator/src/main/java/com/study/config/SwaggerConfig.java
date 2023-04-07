@@ -1,4 +1,4 @@
-package com.study.config;
+package com.golaxy.config;
 
 import com.github.xiaoymin.swaggerbootstrapui.annotations.EnableSwaggerBootstrapUI;
 import org.springframework.beans.factory.annotation.Value;

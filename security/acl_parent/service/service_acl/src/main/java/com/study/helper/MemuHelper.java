@@ -1,7 +1,7 @@
-package com.study.helper;
+package com.golaxy.helper;
 
 import com.alibaba.fastjson.JSONObject;
-import com.study.entity.Permission;
+import com.golaxy.entity.Permission;
 import org.springframework.util.StringUtils;
 
 import java.util.ArrayList;

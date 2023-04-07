@@ -1,4 +1,4 @@
-package com.study.utils;
+package com.golaxy.utils;
 
 
 import lombok.extern.slf4j.Slf4j;

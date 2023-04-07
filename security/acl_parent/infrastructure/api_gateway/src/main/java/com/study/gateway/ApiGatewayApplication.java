@@ -1,4 +1,4 @@
-package com.study.gateway;
+package com.golaxy.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

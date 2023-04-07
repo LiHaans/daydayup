@@ -1,6 +1,6 @@
-package com.study.mapper;
+package com.golaxy.mapper;
 
-import com.study.entity.User;
+import com.golaxy.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

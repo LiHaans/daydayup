@@ -1,7 +1,7 @@
-package com.study.service;
+package com.golaxy.service;
 
-import com.study.entity.User;
-import com.study.mapper.UserMapper;
+import com.golaxy.entity.User;
+import com.golaxy.mapper.UserMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

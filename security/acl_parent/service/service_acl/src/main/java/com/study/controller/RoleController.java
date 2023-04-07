@@ -1,11 +1,11 @@
-package com.study.controller;
+package com.golaxy.controller;
 
 
-import com.study.entity.Role;
-import com.study.service.RoleService;
+import com.golaxy.entity.Role;
+import com.golaxy.service.RoleService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.study.utils.R;
+import com.golaxy.utils.R;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -8,30 +8,34 @@
     <artifactId>daydayup</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <!-- <module>elasticsearch</module>
-       <module>flink_elasticsearch</module>
-       <module>mybatisplus-generator</module>
-       <module>security-part1</module>
-       <module>acl_parent</module>
-       <module>common</module>
-       <module>jdk8-character</module>
-       <module>shiro-part1</module>
-       <module>elasticsearch</module>
-       <module>security</module>
-       <module>elasticsearch-part2</module>
-       <module>date-convert</module>
-       <module>bs</module>
-       <module>es-value-reader</module>
-       <module>oracle-test</module>
-       <module>hive-writer</module>
-       <module>mapreduce</module>
-       <module>kafka-demo</module>-->
+       <!-- <module>elasticsearch</module>
+        <module>flink_elasticsearch</module>
+
+        <module>security-part1</module>
+        <module>acl_parent</module>
+        <module>common</module>
+        <module>jdk8-character</module>
+        <module>shiro-part1</module>
+        <module>elasticsearch</module>
+        <module>security</module>
+        <module>elasticsearch-part2</module>
+        <module>date-convert</module>
+        <module>bs</module>
+        <module>es-value-reader</module>
+        <module>oracle-test</module>
+        <module>hive-writer</module>
+        <module>mapreduce</module>
+        <module>kafka-demo</module>-->
+        <!--<module>mybatisplus-generator</module>
         <module>kafka-conumer</module>
         <module>websocket-server</module>
         <module>minio-test</module>
         <module>pdf-test</module>
         <module>pdf2word</module>
         <module>word-parse</module>
+        <module>auth-test</module>-->
+        <module>spring-demo</module>
+        <module>tool-test</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -45,6 +49,7 @@
 
     <!-- 统一管理jar包版本 -->
     <properties>
+        <spring-boot.version>2.3.12.RELEASE</spring-boot.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -55,6 +60,53 @@
         <druid.version>1.1.16</druid.version>
         <mybatis.spring.boot.version>1.3.0</mybatis.spring.boot.version>
         <swagger.version>2.7.0</swagger.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.test.skip>true</maven.test.skip>
+        <slf4j-api.version>1.7.25</slf4j-api.version>
+        <junit.version>4.12</junit.version>
+        <spring.version>4.3.21.RELEASE</spring.version>
+        <spring-boot.version>2.3.12.RELEASE</spring-boot.version>
+        <commons-lang3.version>3.8.1</commons-lang3.version>
+        <commons-io.version>2.6</commons-io.version>
+        <mybatis-plus-boot-starter.version>3.4.3.4</mybatis-plus-boot-starter.version>
+        <dynamic-datasource-spring-boot-starter.version>3.4.0</dynamic-datasource-spring-boot-starter.version>
+        <pagehelper.version>1.3.0</pagehelper.version>
+        <postgresql.version>42.2.6</postgresql.version>
+        <druid.version>1.2.6</druid.version>
+        <fastjson.version>1.2.78</fastjson.version>
+        <flink-java.version>1.12.7</flink-java.version>
+        <flink-scala.version>1.12.7</flink-scala.version>
+        <flink-clients.version>1.12.7</flink-clients.version>
+        <flink-streaming-java.version>1.12.7</flink-streaming-java.version>
+        <flink-table-api-java-bridge.version>1.12.7</flink-table-api-java-bridge.version>
+        <flink-table-planner-blink.version>1.12.7</flink-table-planner-blink.version>
+        <flink-table-planner.version>1.12.7</flink-table-planner.version>
+        <flink-table-common.version>1.12.7</flink-table-common.version>
+        <flink-connector-hive.version>1.12.7</flink-connector-hive.version>
+        <hive-metastore.version>2.3.6</hive-metastore.version>
+        <hive-exec.version>2.3.6</hive-exec.version>
+        <lombok.version>1.18.22</lombok.version>
+        <libfb303.version>0.9.3</libfb303.version>
+        <hadoop-client.version>3.1.1</hadoop-client.version>
+        <springfox-version>2.9.2</springfox-version>
+        <swagger-bootstrap.version>1.9.6</swagger-bootstrap.version>
+        <swagger-annotations>1.5.21</swagger-annotations>
+        <swagger-models>1.5.21</swagger-models>
+        <validation-api>1.1.0.Final</validation-api>
+        <hibernate-validator>5.2.2.Final</hibernate-validator>
+        <openfeign-version>2.2.9.RELEASE</openfeign-version>
+        <easyexcel-version>2.1.6</easyexcel-version>
+        <minio.version>7.1.0</minio.version>
+        <threetenbp.version>2.6.4</threetenbp.version>
+        <mysql.version>8.0.17</mysql.version>
+        <oracle.version>12.1.0.2</oracle.version>
+        <sqlserver.version>8.4.1.jre8</sqlserver.version>
+        <dm.version>1.0.0</dm.version>
+        <kingbase.version>8.6.0</kingbase.version>
     </properties>
 
     <!-- 子模块继承之后，提供作用：锁定版本+子modlue不用写groupId和version  -->
@@ -146,7 +198,6 @@
                 <artifactId>mybatis-plus-boot-starter</artifactId>
                 <version>3.0.5</version>
             </dependency>
-
 
         </dependencies>
     </dependencyManagement>

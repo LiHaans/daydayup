@@ -1,6 +1,6 @@
-package com.study.security;
+package com.golaxy.security;
 
-import com.study.utils.MD5;
+import com.golaxy.utils.MD5;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 

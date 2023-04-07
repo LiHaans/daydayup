@@ -1,8 +1,8 @@
-package com.study.service.impl;
+package com.golaxy.service.impl;
 
-import com.study.entity.Menu;
-import com.study.mapper.MenuMapper;
-import com.study.service.MenuService;
+import com.golaxy.entity.Menu;
+import com.golaxy.mapper.MenuMapper;
+import com.golaxy.service.MenuService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

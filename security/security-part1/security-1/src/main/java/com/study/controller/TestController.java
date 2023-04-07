@@ -1,4 +1,4 @@
-package com.study.controller;
+package com.golaxy.controller;
 
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
