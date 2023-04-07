@@ -1,0 +1,8 @@
+server:
+  port: 9999
+
+
+feign:
+  ylgy:
+    name: ylgy
+    url: https://cat-match.easygame2021.com

@@ -17,11 +17,11 @@
     </properties>
 
     <dependencies>
-      <!--  <dependency>
+        <dependency>
             <groupId>com.oracle</groupId>
             <artifactId>ojdbc</artifactId>
             <version>8</version>
-        </dependency>-->
+        </dependency>
         <dependency>
             <groupId>org.apache.hive</groupId>
             <artifactId>hive-jdbc</artifactId>
@@ -63,6 +63,17 @@
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.25</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
     </dependencies>
