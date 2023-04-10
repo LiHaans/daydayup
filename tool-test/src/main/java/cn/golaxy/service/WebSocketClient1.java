@@ -33,7 +33,7 @@ public class WebSocketClient1 {
     @OnOpen
     public void onOpen(Session session) {
         this.session = session;
-        log.info("Connected to WebSocket server: {}", session.getRequestURI().toString());
+        log.info("Connected to WebSocket server: {}", session.getRequestURI());
         session.setMaxIdleTimeout(Long.MAX_VALUE / 10);
         session.setMaxBinaryMessageBufferSize(Integer.MAX_VALUE / 10);
         session.setMaxTextMessageBufferSize(Integer.MAX_VALUE / 10);
@@ -56,6 +56,7 @@ public class WebSocketClient1 {
 
     @OnError
     public void onError(Throwable throwable) {
+        throwable.printStackTrace();
         log.error("onError: {}", throwable.getMessage());
     }
 
@@ -69,15 +70,12 @@ public class WebSocketClient1 {
         container.connectToServer(this, new URI(uri));
     }
 
-    public static void main(String[] args) throws Exception {
-        while (true) {
-            WebSocketClient1 client = new WebSocketClient1();
-            client.connect("ws://10.208.63.15/bdg-api/bdg-service/ws/kafka_test_0406_1?appKey=pGagSeVF");
-
-            while (client.session.isOpen()) {
-                Thread.sleep(1000 * 5);
-            }
-        }
+    public Session getSession() {
+        return session;
     }
 
+    public static void main(String[] args) {
+        WebSocketClient1 webSocketClient1 = new WebSocketClient1();
+
+    }
 }

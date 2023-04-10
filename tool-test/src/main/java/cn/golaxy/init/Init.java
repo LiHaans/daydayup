@@ -39,7 +39,7 @@ public class Init implements CommandLineRunner {
         if ("http".equals(requestType)) {
             httpRequestService.queryData(requestUrl, appKey, responseUrl, tableName);
         } else if ("websocket".equals(requestType)) {
-            webSocketService.consumer(requestUrl, appKey, responseUrl, tableName);
+            webSocketService.queryData(requestUrl, appKey, responseUrl, tableName);
         }
     }
 }

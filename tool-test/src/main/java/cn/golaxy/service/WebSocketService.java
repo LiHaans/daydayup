@@ -20,6 +20,29 @@ public class WebSocketService {
     @Resource
     private HttpFeignClient httpFeignClient;
 
+
+    public void queryData(String url, String appKey, String responseUrl, String tableName) throws Exception {
+        String requestUrl = String.format("%s?appKey=%s", url, appKey);
+        log.info("访问的url:"+url);
+        while (true) {
+            WebSocketClient1 client = new WebSocketClient1(responseUrl, tableName, httpFeignClient);
+            client.connect(requestUrl);
+
+            while (client.getSession().isOpen()) {
+                sleep(1000 * 5);
+            }
+
+            if(client.getSession()!=null){
+                try{
+                    client.getSession().close();
+                    continue;
+                }catch (Exception e){
+
+                }
+            }
+        }
+    }
+
     public void consumer(String url, String appKey, String responseUrl, String tableName) {
         HttpClientManager httpClientManager = new HttpClientManager();
         httpClientManager.initHttpclientPool();

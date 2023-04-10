@@ -2,6 +2,7 @@ package cn.golaxy.service;
 
 import cn.golaxy.feign.HttpFeignClient;
 import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.serializer.SerializerFeature;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -20,7 +21,6 @@ public class HttpRequestService {
 
     @Resource
     private HttpFeignClient httpFeignClient;
-
 
     public void queryData(String requestUrl, String appKey, String responseUrl, String tableName) throws Exception {
         Integer pageNum = 1;
@@ -41,12 +41,12 @@ public class HttpRequestService {
                 result = httpFeignClient.getMethodRequest(URI.create(requestUrl), dto);
             }
 
-            ArrayList<JSONObject> datas = new ArrayList<>();
+            List<JSONObject> datas = new ArrayList<>();
 
             log.info("result: {}", result);
 
             if (result != null && result.getBoolean("success") && result.getJSONArray("data") != null && result.getJSONArray("data").size() > 0) {
-                List<JSONObject> data = JSONObject.parseArray(result.getJSONArray("data").toJSONString(), JSONObject.class);
+                List<JSONObject> data = JSONObject.parseArray(JSONObject.toJSONString(result.getJSONArray("data"), SerializerFeature.WriteMapNullValue), JSONObject.class);
 
                 if (index > 0) {
                     if (pageSize.equals(data.size())) {
@@ -82,7 +82,11 @@ public class HttpRequestService {
                     datas.addAll(data);
                 }
 
-                httpFeignClient.sendData(URI.create(responseUrl), tableName, data);
+                if (datas != null && datas.size() > 0) {
+                    JSONObject pushResult = httpFeignClient.sendData(URI.create(responseUrl), tableName, datas);
+                    log.info("推送数据到数据接入工具: {}", pushResult);
+                }
+
 
             } else {
 
