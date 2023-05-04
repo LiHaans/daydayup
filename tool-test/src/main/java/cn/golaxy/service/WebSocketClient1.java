@@ -2,6 +2,7 @@ package cn.golaxy.service;
 
 import cn.golaxy.feign.HttpFeignClient;
 import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.serializer.SerializerFeature;
 import lombok.extern.slf4j.Slf4j;
 
 import javax.websocket.*;

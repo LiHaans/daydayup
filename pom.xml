@@ -8,32 +8,30 @@
     <artifactId>daydayup</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-       <!-- <module>elasticsearch</module>
+        <module>elasticsearch</module>
         <module>flink_elasticsearch</module>
 
-        <module>security-part1</module>
-        <module>acl_parent</module>
-        <module>common</module>
+
         <module>jdk8-character</module>
         <module>shiro-part1</module>
         <module>elasticsearch</module>
         <module>security</module>
-        <module>elasticsearch-part2</module>
+
         <module>date-convert</module>
         <module>bs</module>
         <module>es-value-reader</module>
         <module>oracle-test</module>
         <module>hive-writer</module>
         <module>mapreduce</module>
-        <module>kafka-demo</module>-->
-        <!--<module>mybatisplus-generator</module>
+        <module>kafka-demo</module>
+        <module>mybatisplus-generator</module>
         <module>kafka-conumer</module>
         <module>websocket-server</module>
         <module>minio-test</module>
         <module>pdf-test</module>
         <module>pdf2word</module>
         <module>word-parse</module>
-        <module>auth-test</module>-->
+        <module>auth-test</module>
         <module>spring-demo</module>
         <module>tool-test</module>
     </modules>
